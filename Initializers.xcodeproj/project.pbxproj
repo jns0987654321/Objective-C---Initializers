@@ -13,6 +13,7 @@
 		527F8F461EB6746000EE6569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527F8F441EB6746000EE6569 /* Main.storyboard */; };
 		527F8F481EB6746000EE6569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527F8F471EB6746000EE6569 /* Assets.xcassets */; };
 		527F8F4B1EB6746000EE6569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527F8F491EB6746000EE6569 /* LaunchScreen.storyboard */; };
+		527F8F541EB676B400EE6569 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 527F8F531EB676B400EE6569 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		527F8F471EB6746000EE6569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		527F8F4A1EB6746000EE6569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		527F8F4C1EB6746000EE6569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527F8F521EB676B400EE6569 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		527F8F531EB676B400EE6569 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				527F8F491EB6746000EE6569 /* LaunchScreen.storyboard */,
 				527F8F4C1EB6746000EE6569 /* Info.plist */,
 				527F8F3B1EB6746000EE6569 /* Supporting Files */,
+				527F8F521EB676B400EE6569 /* Person.h */,
+				527F8F531EB676B400EE6569 /* Person.m */,
 			);
 			path = Initializers;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			files = (
 				527F8F431EB6746000EE6569 /* ViewController.m in Sources */,
 				527F8F401EB6746000EE6569 /* AppDelegate.m in Sources */,
+				527F8F541EB676B400EE6569 /* Person.m in Sources */,
 				527F8F3D1EB6746000EE6569 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

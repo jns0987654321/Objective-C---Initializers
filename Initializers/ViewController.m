@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    Person *john = [[Person alloc]init]; // very explicit, can use custom inits
+    Person *paul = [Person new]; // use default init
+    
+    
 }
 
 
